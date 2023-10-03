@@ -1,0 +1,24 @@
+[mysqld]
+key_buffer_size = 2048M
+max_allowed_packet = 512M
+table_open_cache = 64
+sort_buffer_size = 64M
+net_buffer_length = 8K
+read_buffer_size = 256K
+read_rnd_buffer_size = 512K
+myisam_sort_buffer_size = 256M
+ft_min_word_len = 3
+lower_case_table_names = 1
+group_concat_max_len = 4294967295
+wait_timeout = 10
+interactive_timeout = 10
+max_connections = 120
+open_files_limit = 8912
+low_priority_updates = 1
+innodb_buffer_pool_size=2G
+innodb_flush_log_at_trx_commit = 2
+max_heap_table_size=1024M
+innodb_sort_buffer_size = 512M
+join_buffer_size = 512M
+innodb_lock_wait_timeout = 600
+default-time-zone = '+00:00'
